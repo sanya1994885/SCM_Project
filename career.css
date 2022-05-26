@@ -1,0 +1,197 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.header {
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(image/random-banner.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+nav {
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav img {
+    width: 200px;
+}
+
+.nav-links {
+    flex: 1;
+    text-align: right;
+}
+
+.nav-links ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+
+.nav-links ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.nav-links ul li::after {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #f44336;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+
+.nav-links ul li:hover::after {
+    width: 100px;
+}
+
+.text-box {
+    width: 90%;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.text-box h1 {
+    font-size: 60px;
+}
+
+.text-box p {
+    margin: 10px 0 40x;
+    font-size: 17px;
+    color: #fff;
+}
+
+.hero-btn {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 12px 34px;
+    font-size: 15px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+
+.hero-btn:hover {
+    border: 1px solid #f44336;
+    background: #f44336;
+    transition: 1s;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    font-family: Arial;
+}
+
+.inner-container {
+    background-color: rgb(252, 252, 252);
+    font-family: Arial;
+    font-weight: 70;
+    margin-left: 100px;
+    margin-top: 50px;
+    width: 70%;
+    margin-right: 20px;
+}
+
+.inner-container div {
+    font-family: Arial;
+    font-weight: 70;
+}
+
+.inner-container div h2,
+h4 {
+    font-family: Arial;
+    font-weight: 70;
+}
+
+.essentials {
+    display: flex;
+    flex-direction: row;
+}
+
+.experience {
+    margin-right: 1cm;
+    font-family: Arial;
+}
+
+.exp {
+    margin-right: 1cm;
+    font-family: Arial;
+    /* margin-left: 20px; */
+    padding-left: 20px;
+    border-left: 2px solid firebrick;
+}
+
+.satyum {
+    margin-right: 1cm;
+    font-family: Arial;
+    /* margin-left: 20px */
+    padding-left: 20px;
+    border-left: 2px solid firebrick;
+}
+
+.mand {
+    margin-right: 1cm;
+    font-family: Arial;
+    /* margin-left: 1cm; */
+    padding-left: 20px;
+    border-left: 2px solid firebrick;
+}
+
+.line-only {
+    text-decoration: underline;
+}
+
+.side-container {
+    background-color: black;
+    color: white;
+    font-family: arial;
+    width: 30%;
+    height: 700px;
+}
+
+.deeper-container {
+    margin-top: 10px;
+    margin-left: 2cm;
+    margin: 2cm;
+    /* text-decoration: underline; */
+}
+
+.deeper-container div {
+    margin-bottom: 3px;
+    border-bottom: 2px solid white;
+}
+
+.deeper-container div h3 {
+    font-weight: 70;
+    margin: 5px;
+    font-family: Arial;
+    margin-bottom: 1px white solid;
+}
+
+.listh ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.foot-div img {
+    width: 100%;
+    text-align: center;
+}
